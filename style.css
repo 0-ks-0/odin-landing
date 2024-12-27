@@ -151,3 +151,57 @@ header .container
 	text-align: center;
 	align-content: center;
 }
+
+/*
+ *
+ * Info
+ *
+ */
+#info
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3rem;
+
+	padding: 3rem 0 5rem;
+}
+
+
+#info h3
+{
+	font-size: 36px;
+	color: var(--color-navy-blue);
+	font-weight: 900;
+
+	text-align: center;
+}
+
+.info-container
+{
+	display: flex;
+	gap: 40px;
+
+	width: 800px;
+}
+
+.info-item
+{
+	width: calc(100% / 4);
+}
+
+.info-item .img
+{
+	width: 100%;
+	height: calc( (800px - (40px * 3)) / 4);
+
+	border: 3px solid var(--color-btn);
+	border-radius: 12px;
+
+	margin-bottom: 12px;
+}
+
+.info-item .info-text
+{
+	text-align: center;
+}
