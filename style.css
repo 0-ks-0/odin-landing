@@ -1,0 +1,151 @@
+:root
+{
+	--color-navy-blue: #1F2937;
+	--color-hero-main: #F9FAF8;
+	--color-header-text-secondary: #E5E7EB;
+	--color-nav-logo-text: #F9FAF8;
+
+	--color-btn: #3882F6;
+
+	--color-heading-text: #1f2937;
+
+	--color-bg-quote-section: #e5e7eb;
+	--color-quote-text: #1f2937;
+}
+
+*
+{
+	margin: 0;
+
+	padding: 0;
+
+	box-sizing: border-box;
+
+	font-family: Roboto, sans-serif;
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	display: flex;
+	flex-direction: column;
+	align-items:  center;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+header
+{
+	background-color: var(--color-navy-blue);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header
+{
+	width: 100vw;
+}
+
+header .container
+{
+	width: 1000px;
+	max-width: 1000px;
+}
+
+.nav
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav .logo
+{
+	font-size: 24px;
+	color: var(--color-nav-logo-text);
+	font-weight: 800;
+}
+
+.nav .links
+{
+	display: flex;
+	gap: 16px;
+
+	list-style: none;
+}
+
+.nav .links a
+{
+	color: var(--color-header-text-secondary);
+	font-size: 18px;
+}
+
+/*
+ * Hero
+ */
+.hero
+{
+	padding: 7rem 0;
+
+	display: flex;
+	gap: 50px;
+}
+
+.hero-content,
+.hero-img
+{
+	width: 50%;
+}
+
+.hero-main
+{
+	font-size: 48px;
+	color: var(--color-hero-main);
+	font-weight: 900;
+}
+
+.hero-secondary
+{
+	font-size: 18px;
+	color: var(--color-header-text-secondary);
+	margin-top: 16px;
+}
+
+.hero .btn
+{
+	padding: 6px 24px;
+
+	margin-top: 16px;
+
+	border-radius: 5px;
+
+	display: inline-block;
+
+	background-color: var(--color-btn);
+
+	color: white;
+}
+
+.hero-img
+{
+	background-color: rgb(122, 121, 121);
+
+	color: white;
+
+	text-align: center;
+	align-content: center;
+}
