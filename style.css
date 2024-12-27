@@ -244,3 +244,57 @@ header .container
 	font-weight: 800;
 	text-align: right;
 }
+
+/*
+ *
+ * Register
+ *
+ */
+#register
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 6rem 0;
+}
+
+#register .container
+{
+	background-color: var(--color-btn);
+
+	width: 1000px;
+
+	padding: 2rem 5rem;
+
+	color: var(--color-header-text-secondary);
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	border-radius: 8px;
+}
+
+#register .cta-text
+{
+	color: var(--color-header-text-secondary);
+}
+
+#register .cta-text .main
+{
+	font-size: 1.2rem;
+	font-weight: 800;
+	color: white;
+}
+
+#register a
+{
+	padding: 4px 24px;
+
+	border: 2px solid white;
+	border-radius: 8px;
+
+	color: white;
+	font-weight: 500;
+}
